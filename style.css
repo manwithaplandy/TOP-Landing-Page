@@ -120,13 +120,16 @@ a {
 }
 
 .quote {
-    font-size: 48px;
-    font-weight: 100;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+    color: #1f2937;
 }
 
 .quote-attribution {
-    font-size: 14px;
+    font-size: 24px;
     font-weight: bold;
+    text-align: end;
 }
 
 .call-to-action {
@@ -140,6 +143,10 @@ a {
 .footer {
     background-color: #1F2937;
     color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
 }
 
 
