@@ -1,0 +1,145 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 150px;
+}
+
+.header-links {
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 0px 15px;
+}
+
+.banner {
+    background-color: #1F2937;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    padding: 70px 150px;
+    flex: 1;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-main {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding-bottom: 5px;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.banner button {
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 7px 30px;
+    background-color:#457fdb;
+    color: #F9FAF8;
+    border: none;
+}
+
+.banner img {
+    flex-grow: 1;
+    max-width: 500px;
+    margin-left: 50px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.content h1 {
+    align-self: center;
+    margin-top: 45px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    padding: 50px;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 175px;
+}
+
+.card img {
+    max-width: 175px;
+    padding-bottom: 15px;
+}
+
+.quotebox {
+    background-color: #e5e7eb;
+    padding: 100px 250px;
+}
+
+.quote {
+    font-size: 48px;
+    font-weight: 100;
+}
+
+.quote-attribution {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.call-to-action {
+
+}
+
+.sign-up-box {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+
