@@ -16,7 +16,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 150px;
+    padding: 20px 200px;
 }
 
 .header-links {
@@ -43,7 +43,7 @@ a {
     display: flex;
     flex-flow: row nowrap;
     align-items: flex-start;
-    padding: 70px 150px;
+    padding: 70px 200px;
     flex: 1;
 }
 
@@ -116,7 +116,7 @@ a {
 
 .quotebox {
     background-color: #e5e7eb;
-    padding: 100px 250px;
+    padding: 100px 25%;
 }
 
 .quote {
@@ -133,11 +133,43 @@ a {
 }
 
 .call-to-action {
-
+    padding: 50px;
+    justify-content: center;
+    display: flex;
 }
 
 .sign-up-box {
-    background-color: #3882F6;
+    background-color: #457fdb;
+    display: flex;
+    width: 56%;
+    align-items: center;
+    padding: 25px 50px;
+    border-radius: 10px;
+}
+
+.sign-up-box button {
+    margin: 20px 0px;
+    border-radius: 5px;
+    padding: 7px 30px;
+    background-color:#457fdb;
+    color: #F9FAF8;
+    border: 2px solid;
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+.cta-text {
+    margin: 0 25px;
+}
+
+.cta-maintext {
+    color: #F9FAF8;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.cta-subtext {
+    color: #d7d8d7;
 }
 
 .footer {
