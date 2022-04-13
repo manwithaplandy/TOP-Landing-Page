@@ -2,9 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-.main {
+body {
     display: flex;
-    flex-flow: column nowrap;
+    flex-flow: column wrap;
 }
 
 .hero {
@@ -16,7 +16,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 20px 25%;
+    padding: 20px 5vw;
 }
 
 .header-links {
@@ -41,10 +41,8 @@ a {
 .banner {
     background-color: #1F2937;
     display: flex;
-    flex-flow: row nowrap;
-    align-items: flex-start;
-    padding: 70px 25%;
-    flex: 1;
+    justify-content: space-between;
+    margin: 3vh 5vw;
 }
 
 .herotext {
@@ -52,17 +50,18 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    width: 50%;
 }
 
 .hero-main {
-    font-size: 48px;
+    font-size: 3.3vw;
     font-weight: 900;
     color: #F9FAF8;
     padding-bottom: 5px;
 }
 
 .hero-secondary {
-    font-size: 18px;
+    font-size: 1.5vw;
     color: #e5e7eb;
 }
 
@@ -76,14 +75,14 @@ a {
 }
 
 .banner img {
-    flex-grow: 1;
-    max-width: 500px;
-    margin-left: 50px;
+    width: 45%;
+    object-fit:cover;
 }
 
 .content {
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .content h1 {
@@ -97,7 +96,6 @@ a {
 .cards {
     display: flex;
     justify-content: center;
-    align-items: baseline;
     padding: 50px;
     gap: 50px;
 }
@@ -105,18 +103,16 @@ a {
 .card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    max-width: 175px;
+    width: 20vw;
 }
 
 .card img {
-    max-width: 175px;
     padding-bottom: 15px;
 }
 
 .quotebox {
     background-color: #e5e7eb;
-    padding: 100px 25%;
+    padding: 100px 25vw;
 }
 
 .quote {
